@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<common>		
+		<!--游戏ID-->
+		<gameid>10013</gameid>
+			
+		<!--全局解散房间倒计时 默认21600s 即6小时-->
+		<play_dis_time>21600</play_dis_time>
+
+		<!-- 牌局未开始自动解散s -->
+		<no_play_dis_time>600</no_play_dis_time>
+
+		<!-- 用户发起解散N秒后自动同意 -->
+		<user_dis_time>180</user_dis_time>
+
+		<!-- 甩牌时间 -->
+		<shuaipai_time>15</shuaipai_time>
+		
+		<!--操作超时-->
+		<op_timeout>15</op_timeout>
+	</common>
+
+  
+	<!-- 是否开启配牌 -->
+	<enable_pei_pai>0</enable_pei_pai>
+	
+</root>
+

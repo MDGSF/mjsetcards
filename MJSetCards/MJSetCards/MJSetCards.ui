@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MJSetCardsClass</class>
+ <widget class="QMainWindow" name="MJSetCardsClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>882</width>
+    <height>841</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MJSetCards</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>61</x>
+      <y>0</y>
+      <width>511</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <widget class="QCheckBox" name="checkBox_0">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>9</y>
+       <width>35</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string>万</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_1">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>9</y>
+       <width>35</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>条</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_2">
+     <property name="geometry">
+      <rect>
+       <x>178</x>
+       <y>9</y>
+       <width>35</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>饼</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_3">
+     <property name="geometry">
+      <rect>
+       <x>262</x>
+       <y>9</y>
+       <width>35</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>风</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_4">
+     <property name="geometry">
+      <rect>
+       <x>347</x>
+       <y>9</y>
+       <width>35</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>箭</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_5">
+     <property name="geometry">
+      <rect>
+       <x>429</x>
+       <y>9</y>
+       <width>35</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>花</string>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="listWidget_0">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>34</y>
+       <width>75</width>
+       <height>177</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>177</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>177</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="listWidget_1">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>34</y>
+       <width>76</width>
+       <height>177</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>177</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>177</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="listWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>178</x>
+       <y>34</y>
+       <width>75</width>
+       <height>177</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>177</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>177</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="listWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>262</x>
+       <y>34</y>
+       <width>76</width>
+       <height>177</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>177</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>177</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="listWidget_4">
+     <property name="geometry">
+      <rect>
+       <x>347</x>
+       <y>34</y>
+       <width>73</width>
+       <height>177</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>177</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>177</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="listWidget_5">
+     <property name="geometry">
+      <rect>
+       <x>429</x>
+       <y>34</y>
+       <width>73</width>
+       <height>177</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>177</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>177</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="GenBtn">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>10</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Generate</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ResetBtn">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>40</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reset</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loadBtn">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>70</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LoadCards</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DirectoryBtn">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>10</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Directory</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="GrabPicBtn">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>70</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GrabPic</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="OutDirectoryBtn">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>40</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>OutDirectory</string>
+    </property>
+   </widget>
+   <widget class="ProjectListWidget" name="user_4">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>510</y>
+      <width>695</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>695</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>695</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="ProjectListWidget" name="user_5">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>380</y>
+      <width>71</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>520</y>
+      <width>47</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>抓牌</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_5">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>750</y>
+      <width>47</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>码牌</string>
+    </property>
+   </widget>
+   <widget class="ProjectListWidget" name="user_0">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>230</y>
+      <width>695</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>695</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>695</width>
+      <height>68</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="ProjectListWidget" name="user_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>370</y>
+      <width>695</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>695</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>695</width>
+      <height>68</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="ProjectListWidget" name="user_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>440</y>
+      <width>695</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>695</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>695</width>
+      <height>68</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="ProjectListWidget" name="user_1">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>300</y>
+      <width>695</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>695</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>695</width>
+      <height>68</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_0">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>230</y>
+      <width>35</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>东</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>35</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>南</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>440</y>
+      <width>35</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>北</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>370</y>
+      <width>35</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>西</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clearUser0Btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clearUser1Btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clearUser2Btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>390</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clearUser3Btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>460</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clearUser4Btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>540</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sortUser0Btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>273</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sort</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sortUser1Btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>343</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sort</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sortUser2Btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>413</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sort</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sortUser3Btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>483</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sort</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sortUser4Btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>563</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sort</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>882</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>输出文件格式</string>
+    </property>
+    <addaction name="actionbinary"/>
+    <addaction name="actionjson_dec"/>
+    <addaction name="actionjson_hex"/>
+    <addaction name="actiondec"/>
+    <addaction name="actionhex"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>设置</string>
+    </property>
+    <addaction name="actionmodifyOutPath"/>
+    <addaction name="actionmodifyOutFileName"/>
+    <addaction name="separator"/>
+    <addaction name="actiongenLnk"/>
+    <addaction name="actionautoStart"/>
+    <addaction name="actioncloseToTray"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_4"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionbinary">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>binary</string>
+   </property>
+  </action>
+  <action name="actionjson_dec">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>json_dec</string>
+   </property>
+  </action>
+  <action name="actionjson_hex">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>json_hex</string>
+   </property>
+  </action>
+  <action name="actionhex">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>hex</string>
+   </property>
+  </action>
+  <action name="actiondec">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>dec</string>
+   </property>
+  </action>
+  <action name="actionmodifyOutPath">
+   <property name="text">
+    <string>modifyOutPath</string>
+   </property>
+  </action>
+  <action name="actionmodifyOutFileName">
+   <property name="text">
+    <string>modifyOutFileName</string>
+   </property>
+  </action>
+  <action name="actiongenLnk">
+   <property name="text">
+    <string>genLnk</string>
+   </property>
+  </action>
+  <action name="actionautoStart">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>autoStart</string>
+   </property>
+  </action>
+  <action name="actioncloseToTray">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>closeToTray</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>ProjectListWidget</class>
+   <extends>QListWidget</extends>
+   <header location="global">projectlistwidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="MJSetCards.qrc"/>
+ </resources>
+ <connections/>
+</ui>

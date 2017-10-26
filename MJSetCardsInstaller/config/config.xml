@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>MJSetCards</Name>
+    <Version>1.0.1</Version>
+    <Title>MJSetCards</Title>
+    <Publisher>Huang Jian</Publisher>
+    <!-- Directory name is used in component.xml -->
+    <StartMenuDir>MJSetCards</StartMenuDir>
+    <TargetDir>@HomeDir@/MJSetCards</TargetDir>
+</Installer>
